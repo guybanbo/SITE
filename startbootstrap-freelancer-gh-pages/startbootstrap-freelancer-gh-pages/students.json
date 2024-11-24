@@ -1,0 +1,11 @@
+{
+    "name": "Jane Doe",
+    "hobbies": "Painting - Traveling - Reading",
+    "courses": [
+      { "courseName": "Web Development", "year": "2023" },
+      { "courseName": "Graphic Design", "year": "2022" }
+    ],
+    "email": "jane.doe@example.com",
+    "photo": "assets/img/jane-avatar.svg"
+  }
+  
