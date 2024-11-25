@@ -1,11 +1,53 @@
-{
-    "name": "Jane Doe",
-    "hobbies": "Painting - Traveling - Reading",
+[
+  {
+    "id": 1,
+    "name": "Guy Banbo",
+    "hobbies": "PlayStation • Books • Movies",
     "courses": [
-      { "courseName": "Web Development", "year": "2023" },
-      { "courseName": "Graphic Design", "year": "2022" }
+      { "courseName": "Information Retrieval" },
+      { "courseName": "Introduction to Sensing and Learning" },
+      { "courseName": "Embedded Systems" },
+      { "courseName": "Optimization Lab" }
     ],
-    "email": "jane.doe@example.com",
-    "photo": "assets/img/jane-avatar.svg"
+    "email": "guybanbo@gmail.com",
+    "photo": "assets/img/guybanbo-avatar.svg"
+  },
+  {
+    "id": 2,
+    "name": "Elroei Seadia",
+    "hobbies": "Skiing • Sports and Gym • Camping",
+    "courses": [
+      { "courseName": "Final Project Stage B" },
+      { "courseName": "Information Retrieval" },
+      { "courseName": "Parallel Programming" },
+      { "courseName": "Embedded Systems" }
+    ],
+    "email": "elroei57@gmail.com",
+    "photo": "assets/img/elroei-avatar.svg"
+  },
+  {
+    "id": 3,
+    "name": "Nil Adar",
+    "hobbies": "Tennis • Gym • Cooking",
+    "courses": [
+      { "courseName": "Information Retrieval" },
+      { "courseName": "Deep Learning Creation" },
+      { "courseName": "Blockchain" },
+      { "courseName": "Cryptology" }
+    ],
+    "email": "niladar@gmail.com",
+    "photo": "assets/img/niladar-avatar.svg"
+  },
+  {
+    "id": 4,
+    "name": "Elior Malik",
+    "hobbies": "Gym • Gaming • Traveling",
+    "courses": [
+      { "courseName": "Embedded Systems" },
+      { "courseName": "Information Retrieval" },
+      { "courseName": "Optimization Lab" }
+    ],
+    "email": "elior676@gmail.com",
+    "photo": "assets/img/eliormalik-avatar.svg"
   }
-  
+]
