@@ -10,7 +10,7 @@
       { "courseName": "Optimization Lab" }
     ],
     "email": "guybanbo@gmail.com",
-    "photo": "assets/img/guybanbo-avatar.svg"
+    "photo": "assets/img/guy.jpg"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
       { "courseName": "Embedded Systems" }
     ],
     "email": "elroei57@gmail.com",
-    "photo": "assets/img/elroei-avatar.svg"
+    "photo": "assets/img/elroei.jpg"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
       { "courseName": "Cryptology" }
     ],
     "email": "niladar@gmail.com",
-    "photo": "assets/img/niladar-avatar.svg"
+    "photo": "assets/img/nil.jpg"
   },
   {
     "id": 4,
@@ -48,6 +48,6 @@
       { "courseName": "Optimization Lab" }
     ],
     "email": "elior676@gmail.com",
-    "photo": "assets/img/eliormalik-avatar.svg"
+    "photo": "assets/img/elior.jpg"
   }
 ]

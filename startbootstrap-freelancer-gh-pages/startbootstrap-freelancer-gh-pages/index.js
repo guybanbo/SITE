@@ -14,6 +14,11 @@ function populateTeamCards(students) {
     const portfolioItem = document.createElement("div");
     portfolioItem.classList.add("portfolio-item", "mx-auto");
 
+    const studentPhoto = document.createElement("img");
+    studentPhoto.src = student.photo; // Assuming "photo" field contains the URL or file path to the image
+    studentPhoto.alt = student.name;
+    studentPhoto.classList.add("img-fluid"); // Add Bootstrap styling or customize as needed
+
     const caption = document.createElement("div");
     caption.classList.add(
       "portfolio-item-caption",
@@ -34,6 +39,8 @@ function populateTeamCards(students) {
 
     // Append the caption to the portfolio item
     caption.appendChild(captionContent);
+        portfolioItem.appendChild(studentPhoto);
+
     portfolioItem.appendChild(caption);
 
     // Append the portfolio item to the card link

@@ -24,6 +24,21 @@ function populateHeader(data) {
   const emailElement = document.getElementById("email");
   emailElement.textContent = data.email;
   emailElement.href = `mailto:${data.email}`;
+  
+  // Update the header ID with the username
+  const newHeaderId = data.name.toLowerCase().replace(/\s+/g, "-");
+  document.querySelector("header").id = newHeaderId;
+
+  // Highlight the corresponding nav link
+  const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+  navLinks.forEach((link) => {
+    // Remove active class from all links
+    link.classList.remove("active");
+    // Check if the link href matches the updated header ID
+    if (link.href.includes(`#${newHeaderId}`)) {
+      link.classList.add("active");
+    }
+  });
 }
 
 // Fetch the JSON file and filter for the specific student based on the URL
