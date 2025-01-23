@@ -4,7 +4,7 @@ const rowsPerPage = 10; // Number of rows per page
 let headerRow = []; // Store the header row
 
 // Fetch and parse the Excel file
-fetch("/data/tf-idf.xlsx") // Adjust the path if needed
+fetch("data/tf-idf.xlsx") // Adjust the path if needed
   .then((response) => {
     if (!response.ok) throw new Error("Failed to fetch the Excel file");
     return response.arrayBuffer();
@@ -94,7 +94,7 @@ document.getElementById("nextPage").addEventListener("click", () => {
 let excelData = []; // Store the parsed Excel data
 
 // Fetch and parse the Excel file
-fetch("/data/q3.xlsx") // Replace with your file path
+fetch("data/q3.xlsx") // Replace with your file path
   .then((response) => {
     if (!response.ok) throw new Error("Failed to fetch the Excel file");
     return response.arrayBuffer();
